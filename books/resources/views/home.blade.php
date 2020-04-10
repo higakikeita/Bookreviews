@@ -8,6 +8,7 @@
                 <div class="card-header">Dashboard</div>
 
                 <div class="card-body">
+                    <button class='btn btn-primary'>Bootstrap</button>
                     @if (session('status'))
                         <div class="alert alert-success" role="alert">
                             {{ session('status') }}
